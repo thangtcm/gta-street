@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patrix, Bootstrap 5 Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////
+                               START SECTION 1 - THE NAVBAR SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////-->
+<nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container py-3">
+      <a class="navbar-brand position-relative" href="">
+        <img src="./images/gta-street-logo.png" alt="logo image" class="logo-postion" style="top: 0;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active text-uppercase" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-uppercase" href="#">Wiki</a></li>
+          <li class="nav-item"><a class="nav-link text-uppercase" href="#">Youtube</a></li>
+          <li class="nav-item"><a class="nav-link text-uppercase" href="#">Discord</a></li>
+          <li class="nav-item"><a class="nav-link text-uppercase" href="#">Register</a></li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+                            START SECTION 2 - THE INTRO SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="home" class="intro-section d-flex align-items-center js-fullheight position-relative">
+  <div class="overlay"></div>
+  <div class="container position-relative" style="z-index: 11;">
+    <div class="row align-items-center text-white justify-content-center">
+      <!-- START THE CONTENT FOR THE INTRO  -->
+      <div class="col-12 col-lg-6  intros text-start">
+        <h1 class="display-2">
+          <span class="display-2--intro">GTA STREET</span>
+          <span class="display-2--description lh-base fst-italic">
+            là một máy chủ nhập vai tại <span class="fw-bold">GTA V</span>, được mở dựa trên nền tảng <span class="fw-bold">FiveM</span> và phát triển theo hướng <span class="fw-bold" style="color: #26A2FC;">Heavy RolePlay</span> (Voice-based) bởi nhóm V:Team là nhóm chịu trách nhiệm trong dự án GTA Street.
+          </span>
+          <span class="display-2--description lh-base fst-italic">
+            Ngoài ra, <span class="fw-bold">GTA Street</span> luôn là một sân chơi mới mẻ trong cộng đồng <span class="fw-bold">GTA V Việt Nam</span>, tất nhiên bạn có thể trải nghiệm máy chủ này miễn phí và chỉ cần truy cập <span class="fw-bold">FiveM</span> và kết nối đến máy chủ là có thể trải nghiệm nó, chần chừ gì nữa mà không tham gia ngay bây giờ !?
+          </span>
+        </h1>
+        <button type="button" class="rounded-pill btn-rounded mb-5">JOIN DISCORD
+          <span><i class="fas fa-arrow-right"></i></span>
+        </button>
+      </div>
+      <!-- START THE CONTENT FOR THE VIDEO -->
+      <div class="col-12 col-lg-6 intros text-end">
+        <div class="video-box">
+          <img src="./images/thumbnail 1.png" alt="video illutration" class="img-fluid">
+          <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+            <span>
+              <i class="fas fa-play-circle"></i>
+            </span>
+            <span class="border-animation border-animation--border-1"></span>
+            <span class="border-animation border-animation--border-2"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="container position-absolute end-0 start-0" style="z-index: 11; bottom: 1rem;">
+    <div class="row text-center">
+      <span class="display-2--description lh-base fst-italic" style="color: #313131!important; font-size: 0.8rem;">
+        Grand Theft Auto and Grand Theft Auto: V are registered trademarks of Take-Two Interactive Software.
+      </span>
+      <span class="display-2--description lh-base fst-italic" style="color: #313131!important; font-size: 0.8rem;">
+        Copyright © 2023 GTA:STREET & V:TEAM - All Rights Reserved.
+      </span>
+    </div>
+    
+  </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/vendors/glightbox/js/glightbox.min.js"></script>
+
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'touchNavigation': true,
+        'href': 'https://www.youtube.com/watch?v=VTzHj-R9McA',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoPlayVideos': 'true',
+});
+    
+    </script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     ></script>
+     <script src="./assets/js/main.js"></script>
+</body>
+</html>
